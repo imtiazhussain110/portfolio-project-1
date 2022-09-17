@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+
+.icon-text {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #40b8ff !important;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background-color: #40b8ff;
+}
+
+.hero-heading {
+  font-size: 4rem;
+}
+
+.hero-btn {
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+
+.hero-btn:hover {
+  background-color: #40b8ff;
+  color: white;
+}
+
+/* Media Queries for Hero section */
+
+@media (max-width: 1115px) {
+  .hero-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .col-lg {
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-image {
+    width: 50% !important;
+  }
+
+  .hero-heading {
+    font-size: 3.5rem;
+  }
+}
+
+/* Service Section */
+
+.service-head {
+  text-align: center;
+}
+
+.service-heading {
+  width: 55%;
+}
+
+.service-icons:hover {
+  color: #40b8ff;
+}
+
+/* Media Queries for Service section */
+
+@media (max-width: 992px) {
+  .service-para {
+    width: 40%;
+  }
+}
+
+@media (max-width: 706px) {
+  .service-para {
+    width: 90%;
+  }
+
+  .service-heading {
+    width: 90%;
+  }
+}
+
+/* Interior Section */
+
+.interior {
+  background-color: #f9f9ff;
+}
+
+.interior-btn {
+  background: linear-gradient(to right, #3eabff, #42ceff);
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.interior-btn:hover {
+  background-color: white;
+  color: black;
+}
